@@ -1,6 +1,18 @@
 /* BASE STYLES */
+body {
+    background-color: #E5E5E5;
+    color: #444444;
+    font-size: 16px;
+}
+img {
+    width: 100vw;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
 
-/* HEADER STYLES */
+/* NAV STYLES */
 
 /* PRODUCT IMAGE STYLES */
 
@@ -12,12 +24,17 @@
 
 
 
+
+
+
+
+
 @media only screen and (min-width: 768px) {
     /*Tablet styles here*/
 
 /* BASE STYLES */
 
-/* HEADER STYLES */
+/* NAV STYLES */
 
 /* PRODUCT IMAGE STYLES */
 
@@ -35,7 +52,7 @@
 @media only screen and (min-width: 1200px) {
     /*Desktop styles here*/
 
-/* BASE STYLES */
+/* NAV STYLES */
 
 /* HEADER STYLES */
 
