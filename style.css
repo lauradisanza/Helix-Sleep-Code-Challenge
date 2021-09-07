@@ -149,7 +149,6 @@ h3 {
     padding-bottom: 20px;
 }
 .variant-color {
-    border: 1px red solid;
     background-color: #E8E8E8;
     font-size: 14px;
     padding: 1em 0;
@@ -157,8 +156,21 @@ h3 {
     width: 100%;
 }
 
-/* GUARANTEES STYLES */
+/* VALUE PROP STYLES */
+.value-props {
+    flex-flow: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+.value-prop {
+    width: 45%;
+    height: 80px;
+    padding: 1em 0;
+}
 
+.value-prop img {
+    text-align: start;
+}
 
 
 
@@ -183,9 +195,7 @@ h3 {
 
 /* VARIANT STYLES */
 
-
-
-/* GUARANTEES STYLES */
+/* VALUE PROP STYLES */
 
 }
  
@@ -209,7 +219,7 @@ h3 {
 
 /* VARIANT STYLES */
 
-/* GUARANTEES STYLES */
+/* VALUE PROP STYLES */
 
 }
 
