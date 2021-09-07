@@ -282,14 +282,29 @@ h3 {
     /*Desktop styles here*/
 
     /* BASE STYLES */
+    .content {
+        display: flex;
+        flex-flow: wrap;
+    }
 
     /* NAV STYLES */
 
     /* HEADER STYLES */
 
     /* PRODUCT IMAGE STYLES */
+    .product-img-section {
+        width: 70%;
+        margin: auto;
+    }
 
     /* PRODUCT INFORMATION STYLES */
+    .content-column {
+        width: 30%;
+    }
+    .product-title, .product-info, .full-price, .financing {
+        width: 100%;
+        margin: auto;
+    }
 
     /* PRICING */ 
 
