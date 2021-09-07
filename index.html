@@ -21,17 +21,20 @@
 
 <body>
     <section class="header flex">
-        <nav class="nav font">
-            <ul class="nav-menu">
-                <li class="nav-link">The Sofa</li>
-                <li class="nav-link">Reviews</li>
-                <li class="nav-link">About Us</li>
-                <li class="nav-link">Showroom</li>
-                <li class="nav-link">Swatches</li>
+        <nav class="nav font flex">  
+            <!--Non-working hamburger menu from https://www.youtube.com/watch?v=1iS0r238G4g-->
+            <div class="open-menu">
+                <i class="fa fa-bars"></i>
+            </div>
+            <ul class="main-menu flex">
+                <li class="nav-link"><a href="#">The Sofa</a></li>
+                <li class="nav-link"><a href="#">Reviews</a></li>
+                <li class="nav-link"><a href="#">About Us</a></li>
+                <li class="nav-link"><a href="#">Showroom</a></li>
+                <li class="nav-link"><a href="#">Swatches</a></li>
+                <div class="close-menu"><i class="fas fa-times"></i></div>
             </ul>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars fa-3x"></i>
-            </a>
+
         </nav>  
         <div class="logo-container">
            <img class="logo" src="img/logo.png" alt="Allday Logo"> 
@@ -108,6 +111,10 @@
             <li class="value-prop"><img src="img/materials.png" alt="High Quality Materials"></li>
         </ul>
     </section>
+
+
+<script src="script.js"></script>
+<noscript>This website requires JavaScript to function properly</noscript>
 
 
 </body>
