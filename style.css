@@ -7,7 +7,7 @@ body {
     background-color: #E5E5E5;
     color: #444444;
     font-family: 'Raleway', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     width: 90vw;
     margin: auto;
 }
@@ -30,15 +30,26 @@ ul {
 }
 
 /* PRODUCT IMAGE STYLES */
+.product-aside {
+    justify-content: space-between;
+}
+.secure {
+    width: 25%;
+    align-items: center;
+}
 .padlock {
     height: 1em;
 }
 .secure p {
-    flex-flow: wrap;
     margin: 0;
+    padding-left: .5em;
 }
-.product-img img {
-    width: 90vw;
+.ship {
+    width: 35%;
+    text-align: right;
+}
+.product-img {
+    width: 100%;
 }
 
 /* PRODUCT INFORMATION STYLES */
@@ -64,6 +75,9 @@ h1, h2 {
     /*Tablet styles here*/
 
 /* BASE STYLES */
+body {
+    font-size: 16px;
+}
 
 /* NAV STYLES */
 
