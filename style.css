@@ -11,6 +11,9 @@ body {
     width: 90vw;
     margin: auto;
 }
+h1, h2 {
+    color: #0547A0;
+}
 ul {
     list-style-type: none;
     padding-left: 0;
@@ -20,6 +23,9 @@ ul {
 }
 .font {
     font-family: 'Bungee', cursive;
+}
+.no-margin {
+    margin: 0;
 }
 
 /* NAV STYLES */
@@ -42,7 +48,6 @@ ul {
     height: 1em;
 }
 .secure p {
-    margin: 0;
     padding-left: .5em;
 }
 .ship {
@@ -56,16 +61,22 @@ ul {
 /* PRODUCT INFORMATION STYLES */
 .product-content {
     padding: 1.5em;
-    text-align: center;
-}
-.price-area, .financing {
-    
-}
-h1, h2 {
-    color: #0547A0;
 }
 h1 {
     font-size: 2.5em;
+    margin: 60px auto -10px auto;
+}
+.product-info {
+    line-height: 1.5em;
+    margin: 0 auto 24px auto;
+}
+
+/* PRICING */ 
+.price-area {
+    text-align: center;
+}
+.full-price, .financing {
+    margin-bottom: 20px;
 }
 .cost {
     color: red;
@@ -75,12 +86,20 @@ h1 {
 .old-cost {
     font-size: 20px;
     text-decoration: line-through;
+    margin: 8px auto 4px auto;
 }
 .small-print {
     font-size: .8em;
 }
 
 /* BUTTON STYLES */
+.add-to-cart {
+    background-color: #0D6EF0;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    width: 100%;
+}
 
 /* VARIANT STYLES */
 .variant img {
@@ -107,6 +126,8 @@ h1 {
 
 /* PRODUCT INFORMATION STYLES */
 
+/* PRICING */ 
+
 /* BUTTON STYLES */
 
 /* VARIANT STYLES */
@@ -130,6 +151,8 @@ h1 {
 /* PRODUCT IMAGE STYLES */
 
 /* PRODUCT INFORMATION STYLES */
+
+/* PRICING */ 
 
 /* BUTTON STYLES */
 
