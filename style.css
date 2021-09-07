@@ -18,6 +18,11 @@ ul {
     list-style-type: none;
     padding-left: 0;
 }
+hr {
+    border: 1px solid white;
+    margin: 10px 0;
+    width: 100%;
+}
 .flex {
     display: flex;
 }
@@ -59,16 +64,18 @@ ul {
 }
 
 /* PRODUCT INFORMATION STYLES */
-.product-content {
-    padding: 1.5em;
+.product-title, .product-info, .full-price, .financing {
+    width: 70vw;
+    margin: auto;
 }
 h1 {
     font-size: 2.5em;
-    margin: 60px auto -10px auto;
+    padding-top: 60px;
+    margin-bottom: -10px;
 }
 .product-info {
     line-height: 1.5em;
-    margin: 0 auto 24px auto;
+    margin-bottom: 30px;
 }
 
 /* PRICING */ 
@@ -76,29 +83,47 @@ h1 {
     text-align: center;
 }
 .full-price, .financing {
-    margin-bottom: 20px;
+    padding: 20px 0;
 }
 .cost {
     color: red;
     font-size: 2.25em;
     font-weight: bold;
+    margin-bottom: 8px;
+}
+.cost span {
+    font-size: 20px;
 }
 .old-cost {
     font-size: 20px;
     text-decoration: line-through;
-    margin: 8px auto 4px auto;
 }
 .small-print {
     font-size: .8em;
+    margin-top: 4px;
+}
+.financing .small-print {
+    text-decoration: underline;
 }
 
 /* BUTTON STYLES */
+button {
+    border: none;
+    width: 100%;
+}
 .add-to-cart {
     background-color: #0D6EF0;
-    border: none;
     border-radius: 6px;
     color: white;
-    width: 100%;
+    font-size: 1.25em;
+    margin-top: 10px;
+}
+
+.save {
+    background-color: inherit;
+    color: inherit;
+    font-size: 14px;
+    text-decoration: underline #0D6EF0 solid;
 }
 
 /* VARIANT STYLES */
