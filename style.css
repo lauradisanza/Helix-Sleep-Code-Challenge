@@ -70,7 +70,7 @@ hr {
     display: none;
     cursor: pointer;
 }
-/* @media(max-width: 900px){
+/* @media(max-width: 975px){
     .main-menu {
         height: 50vh;
         position: fixed;
@@ -108,6 +108,7 @@ hr {
     position: absolute;
     width: 90vw;
     top: 35px;
+    margin: auto;
 }
 .logo {
     height: 2em;
@@ -194,7 +195,6 @@ button {
     font-size: 1.25em;
     margin-top: 10px;
 }
-
 .save {
     background-color: inherit;
     color: inherit;
@@ -244,7 +244,6 @@ h3 {
     height: 80px;
     padding: 1em 0;
 }
-
 .value-prop img {
     text-align: start;
 }
@@ -259,8 +258,14 @@ h3 {
     /*Tablet styles here*/
 
 /* BASE STYLES */
+body {
+    width: 80vw;
+}
 
 /* NAV STYLES */
+.logo-container {
+    width: 80vw;
+}
 
 /* PRODUCT IMAGE STYLES */
 
@@ -269,11 +274,16 @@ h3 {
 /* PRICING */ 
 
 /* BUTTON STYLES */
-
+.add-to-cart {
+    margin-left: 20%;
+    width: 60%;
+}
 /* VARIANT STYLES */
 
 /* VALUE PROP STYLES */
-
+.value-prop {
+    width: 30%;
+}
 }
  
 
