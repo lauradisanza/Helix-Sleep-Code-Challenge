@@ -88,7 +88,7 @@ h1 {
 .cost {
     color: red;
     font-size: 2.25em;
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 8px;
 }
 .cost span {
