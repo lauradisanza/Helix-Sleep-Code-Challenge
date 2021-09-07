@@ -293,8 +293,12 @@ h3 {
 
     /* PRODUCT IMAGE STYLES */
     .product-img-section {
-        width: 70%;
-        margin: auto;
+        width: 68%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .product-img-section hr {
+        display: none;
     }
 
     /* PRODUCT INFORMATION STYLES */
@@ -313,6 +317,15 @@ h3 {
     /* VARIANT STYLES */
 
     /* VALUE PROP STYLES */
+    .value-props {
+        width: 65%;
+    }
+    .value-prop {
+        width: 10%;
+        height: auto;
+        padding: 0;
+        margin-top: -400px;
+    }
 
 }
 
