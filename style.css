@@ -37,16 +37,24 @@ hr {
 /* NAV STYLES */
 .header {
     align-items: center;
-    height: 100px;
 }
 .nav {
     justify-content: space-between;
+    width: 100%;
+}
+.main-menu {
+    justify-content: left;
+    width: 100%;
 }
 .nav .main-menu li a {
     color: inherit;
     display: inline-block;
-    padding: 15px;
+    padding: 1rem .5rem;
     text-decoration: none;
+    position: relative;
+}
+.right {
+    margin-left: auto;
 }
 .nav .main-menu li a:hover {
     text-decoration: underline 2px #0D6EF0 solid;
@@ -62,9 +70,9 @@ hr {
     display: none;
     cursor: pointer;
 }
-@media(max-width: 800px){
+/* @media(max-width: 900px){
     .main-menu {
-        height: 100vh;
+        height: 50vh;
         position: fixed;
         top: 0;
         right: 0;
@@ -93,13 +101,13 @@ hr {
         display: inline-block;
         padding: 12px;
     }
-}
+} */
 
 .logo-container {
     text-align: center;
     position: absolute;
     width: 90vw;
-    top: 30px;
+    top: 35px;
 }
 .logo {
     height: 2em;
