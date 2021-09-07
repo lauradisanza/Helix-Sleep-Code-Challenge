@@ -7,7 +7,7 @@ body {
     background-color: #E5E5E5;
     color: #444444;
     font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     width: 90vw;
     margin: auto;
 }
@@ -32,6 +32,7 @@ ul {
 /* PRODUCT IMAGE STYLES */
 .product-aside {
     justify-content: space-between;
+    font-size: 14px;
 }
 .secure {
     width: 25%;
@@ -53,9 +54,33 @@ ul {
 }
 
 /* PRODUCT INFORMATION STYLES */
+.product-content {
+    padding: 1.5em;
+    text-align: center;
+}
+.price-area, .financing {
+    
+}
 h1, h2 {
     color: #0547A0;
 }
+h1 {
+    font-size: 2.5em;
+}
+.cost {
+    color: red;
+    font-size: 2.25em;
+    font-weight: bold;
+}
+.old-cost {
+    font-size: 20px;
+    text-decoration: line-through;
+}
+.small-print {
+    font-size: .8em;
+}
+
+/* BUTTON STYLES */
 
 /* VARIANT STYLES */
 .variant img {
@@ -75,9 +100,6 @@ h1, h2 {
     /*Tablet styles here*/
 
 /* BASE STYLES */
-body {
-    font-size: 16px;
-}
 
 /* NAV STYLES */
 
@@ -85,7 +107,11 @@ body {
 
 /* PRODUCT INFORMATION STYLES */
 
+/* BUTTON STYLES */
+
 /* VARIANT STYLES */
+
+
 
 /* GUARANTEES STYLES */
 
@@ -104,6 +130,8 @@ body {
 /* PRODUCT IMAGE STYLES */
 
 /* PRODUCT INFORMATION STYLES */
+
+/* BUTTON STYLES */
 
 /* VARIANT STYLES */
 
