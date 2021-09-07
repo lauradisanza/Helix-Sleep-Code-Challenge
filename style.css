@@ -1,20 +1,39 @@
 /* BASE STYLES */
+html {
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: #E5E5E5;
     color: #444444;
     font-size: 16px;
-}
-img {
-    width: 100vw;
+    width: 90vw;
+    margin: auto;
 }
 ul {
     list-style-type: none;
     padding-left: 0;
 }
+.flex {
+    display: flex;
+}
 
 /* NAV STYLES */
 
+        /* Figure out hamburger menu */
+
+.logo {
+    width: 35%;
+}
+
 /* PRODUCT IMAGE STYLES */
+.padlock {
+    height: 1em;
+}
+.secure p {
+    flex-flow: wrap;
+    margin: 0;
+}
 
 /* PRODUCT INFORMATION STYLES */
 
