@@ -327,10 +327,28 @@ h3 {
     }
 
     /* PRICING */ 
+    .price-area {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0;
+    }
+    .price-area hr {
+        width: 0;
+    }
 
     /* BUTTON STYLES */
+    .add-to-cart {
+        margin-left: 0%;
+        width: 100%;
+    }
+    .save {
+        padding-bottom: 1rem;
+    }
 
     /* VARIANT STYLES */
+    .bottom-line {
+        display: none;
+    }
 
     /* VALUE PROP STYLES */
     .value-props {
@@ -340,7 +358,7 @@ h3 {
         width: 10%;
         height: auto;
         padding: 0;
-        margin-top: -400px;
+        margin-top: -320px;
     }
 
 }
