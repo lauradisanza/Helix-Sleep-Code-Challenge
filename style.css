@@ -70,7 +70,7 @@ hr {
     display: none;
     cursor: pointer;
 }
-/* @media(max-width: 975px){
+@media(max-width: 975px){
     .main-menu {
         height: 50vh;
         position: fixed;
@@ -101,7 +101,7 @@ hr {
         display: inline-block;
         padding: 12px;
     }
-} */
+}
 
 .logo-container {
     text-align: center;
@@ -138,6 +138,9 @@ hr {
     background-color: #E5E5E5;
     width: 100%;
     mix-blend-mode: darken;
+}
+.hide {
+    display: none;
 }
 
 /* PRODUCT INFORMATION STYLES */
@@ -217,7 +220,10 @@ h3 {
 .variant {
     background-color: #E5E5E5;
     border-radius: 6px;
+    color: inherit;
+    font-family: inherit;
     overflow: hidden;
+    padding: 0;
     width: 30%;
 }
 .variant img {
@@ -226,11 +232,19 @@ h3 {
     mix-blend-mode: darken;
 }
 .variant-color {
-    background-color: #E8E8E8;
+    background-color: #d4d4d4;
     font-size: 14px;
     padding: 1em 0;
     text-align: center;
     width: 100%;
+}
+.variant:hover {
+    border: 2px solid #0D6EF0;
+    cursor: pointer;
+}
+.variant-color:hover {
+    background-color: #0D6EF0;
+    color: white;
 }
 
 /* VALUE PROP STYLES */
@@ -278,6 +292,7 @@ h3 {
 
 
 
+
 @media only screen and (min-width: 1200px) {
     /*Desktop styles here*/
 
@@ -287,10 +302,6 @@ h3 {
         flex-flow: wrap;
         padding-top: 20px;
     }
-
-    /* NAV STYLES */
-
-    /* HEADER STYLES */
 
     /* PRODUCT IMAGE STYLES */
     .product-img-section {
