@@ -45,69 +45,27 @@ hr {
 .main-menu {
     justify-content: left;
     width: 100%;
+    flex-flow: wrap;
+    padding-top: 3rem;
 }
 .nav .main-menu li a {
     color: inherit;
     display: inline-block;
-    padding: 1rem .5rem;
+    padding: 0 .5rem;
     text-decoration: none;
     position: relative;
 }
 .right {
     margin-left: auto;
 }
-.nav .main-menu li a:hover {
+.nav .main-menu .link1 {
     text-decoration: underline 2px #0D6EF0 solid;
 }
-.nav .open-menu {
-    font-size: 2rem;
-    margin: 20px;
-    display: none;
-    cursor: pointer;
-}
-.nav .main-menu .close-menu, .icons i {
-    font-size: 2rem;
-    display: none;
-    cursor: pointer;
-}
-/* @media(max-width: 975px){
-    .main-menu {
-        height: 50vh;
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 10;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        transition: top 1s ease;
-        display: none;
-    }
-    .nav .close-menu {
-        display: block;
-        position: absolute;
-        top: 20px;
-        right: 20px;
-    }
-    .nav .open-menu {
-        display: block;
-    }
-    .nav li a:hover {
-        background: none;
-        font-size: 1.6rem;
-    }
-    i {
-        display: inline-block;
-        padding: 12px;
-    }
-} */
-
 .logo-container {
     text-align: center;
     position: absolute;
     width: 90vw;
-    top: 35px;
+    top: 2rem;
     margin: auto;
 }
 .logo {
@@ -293,11 +251,30 @@ h3 {
 
 @media only screen and (min-width: 768px) {
     /*Tablet styles here*/
+    /* NAV STYLES */
+    .main-menu {
+        flex-flow: nowrap;
+        padding-top: 1rem;
+    }
 
     /* PRODUCT IMAGE STYLES */
     .product-img-section {
         width: 80vw;
         margin: auto;
+    }
+    .product1 {
+        z-index: 2;
+        position: absolute;
+        width: 77%;
+        top: 1rem;
+        left: -1rem;
+    }
+    .product2 {
+        z-index: 3;
+        position: absolute;
+        width: 77%;
+        top: 1rem;
+        left: -1rem;
     }
 
     /* BUTTON STYLES */
