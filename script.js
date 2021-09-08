@@ -34,14 +34,10 @@ const redColor = document.querySelector('.color3');
 
 
 amberSofaButton.addEventListener("click", function () {
-    //Remove Red
-    redSofaImg.classList.remove("selected");
-    redSofaButton.classList.remove("border");
-    redColor.classList.remove("background-active");
-    //Remove Charcoal
-    charcoalSofaImg.classList.remove("selected");
-    charcoalSofaButton.classList.remove("border");
-    charcoalColor.classList.remove("background-active");
+    removeRed();
+
+    removeCharcoal;
+    
     //Add Amber
     amberSofaImg.classList.add("selected");
     amberSofaButton.classList.add("border");
@@ -49,14 +45,10 @@ amberSofaButton.addEventListener("click", function () {
 });
 
 charcoalSofaButton.addEventListener("click", function () {
-    //Remove Red
-    redSofaImg.classList.remove("selected");
-    redSofaButton.classList.remove("border");
-    redColor.classList.remove("background-active");
-    //Remove Amber
-    amberSofaImg.classList.remove("selected");
-    amberSofaButton.classList.remove("border");
-    amberColor.classList.remove("background-active");
+    removeRed();
+
+    removeAmber();
+
     //Add Charcoal
     charcoalSofaImg.classList.add("selected");
     charcoalSofaButton.classList.add("border");
@@ -64,16 +56,34 @@ charcoalSofaButton.addEventListener("click", function () {
 });
 
 redSofaButton.addEventListener("click", function () {
-    //Remove Charcoal
-    charcoalSofaImg.classList.remove("selected");
-    charcoalSofaButton.classList.remove("border");
-    charcoalColor.classList.remove("background-active");
-    //Remove Amber
-    amberSofaImg.classList.remove("selected");
-    amberSofaButton.classList.remove("border");
-    amberColor.classList.remove("background-active");
+    removeCharcoal();
+
+    removeAmber();
+
     //Add Red
     redSofaImg.classList.add("selected");
     redSofaButton.classList.add("border");
     redColor.classList.add("background-active");
 });
+
+
+//Remove Amber
+var removeAmber = function () {
+    amberSofaImg.classList.remove("selected");
+    amberSofaButton.classList.remove("border");
+    amberColor.classList.remove("background-active");
+};
+
+//Remove Charcoal
+var removeCharcoal = function() {
+    charcoalSofaImg.classList.remove("selected");
+    charcoalSofaButton.classList.remove("border");
+    charcoalColor.classList.remove("background-active");
+};
+
+//Remove Red
+var removeRed = function() {
+    redSofaImg.classList.remove("selected");
+    redSofaButton.classList.remove("border");
+    redColor.classList.remove("background-active");
+};
