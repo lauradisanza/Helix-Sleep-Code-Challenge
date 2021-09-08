@@ -145,7 +145,7 @@ hr {
     width: 70vw;
     margin: auto;
 }
-h1 {
+.product-title {
     font-size: 2.5em;
     padding-top: 60px;
     margin-bottom: -10px;
@@ -285,6 +285,7 @@ h3 {
     .content {
         display: flex;
         flex-flow: wrap;
+        padding-top: 20px;
     }
 
     /* NAV STYLES */
@@ -293,21 +294,36 @@ h3 {
 
     /* PRODUCT IMAGE STYLES */
     .product-img-section {
-        width: 68%;
+        width: 65%;
         margin-top: 0;
         margin-left: 0;
+        overflow: hidden;
+    }
+    .product-img {
+        width: 130%;
+        position: relative;
+        top: -150px;
+        left: -100px;
     }
     .product-img-section hr {
         display: none;
     }
+    .logo {
+        height: 3.125rem;
+    }
 
     /* PRODUCT INFORMATION STYLES */
     .content-column {
-        width: 30%;
+        width: 32%;
     }
     .product-title, .product-info, .full-price, .financing {
         width: 100%;
         margin: auto;
+    }
+    .product-title {
+        padding-top: 0px;
+        margin-bottom: -20px;
+        margin-top: -20px;
     }
 
     /* PRICING */ 
@@ -318,7 +334,7 @@ h3 {
 
     /* VALUE PROP STYLES */
     .value-props {
-        width: 65%;
+        width: 60%;
     }
     .value-prop {
         width: 10%;
