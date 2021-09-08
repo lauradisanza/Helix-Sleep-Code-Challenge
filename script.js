@@ -17,7 +17,7 @@ const redColor = document.querySelector('.color3');
 amberSofaButton.addEventListener("click", function () {
     removeRed();
 
-    removeCharcoal;
+    removeCharcoal();
     
     //Add Amber
     amberSofaImg.classList.add("selected");

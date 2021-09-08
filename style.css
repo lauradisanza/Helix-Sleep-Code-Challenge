@@ -265,16 +265,16 @@ h3 {
     .product1 {
         z-index: 2;
         position: absolute;
-        width: 77%;
-        top: 1rem;
-        left: -1rem;
+        width: 80%;
+        top: 8rem;
+        left: 5rem;
     }
     .product2 {
         z-index: 3;
         position: absolute;
-        width: 77%;
-        top: 1rem;
-        left: -1rem;
+        width: 80%;
+        top: 8rem;
+        left: 5rem;
     }
 
     /* BUTTON STYLES */
